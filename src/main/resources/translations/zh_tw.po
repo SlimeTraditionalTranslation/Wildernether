@@ -1,0 +1,904 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: slimetranslations\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-05-10 09:43+0000\n"
+"PO-Revision-Date: 2023-05-28 08:59\n"
+"Last-Translator: \n"
+"Language-Team: Chinese Traditional\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Crowdin-Project: slimetranslations\n"
+"X-Crowdin-Project-ID: 585775\n"
+"X-Crowdin-Language: zh-TW\n"
+"X-Crowdin-File: /Wildernether/messages.pot\n"
+"X-Crowdin-File-ID: 2949\n"
+
+#: src/main/java/com/slimetraditionaltranslation/StoveMode.java:8
+msgid "Oven"
+msgstr "烤箱"
+
+#: src/main/java/com/slimetraditionaltranslation/StoveMode.java:9
+msgid "Frying"
+msgstr "油炸"
+
+#: src/main/java/com/slimetraditionaltranslation/StoveMode.java:10
+msgid "Pot"
+msgstr "鍋子"
+
+#: src/main/java/com/slimetraditionaltranslation/StoveMode.java:11
+msgid "Brewing"
+msgstr "釀造"
+
+#: src/main/java/com/slimetraditionaltranslation/StoveMode.java:12
+msgid "Unknown Mode, please report to SlimeTraditionalTranslation Team!"
+msgstr "未知模式，請回報給 SlimeTraditionalTranslation 團隊！"
+
+#: src/main/java/me/schntgaispock/wildernether/Wildernether.java:81
+msgid "SlimeHUD was found on this server!"
+msgstr "在此伺服器上發現 SlimeHUD！"
+
+#: src/main/java/me/schntgaispock/wildernether/Wildernether.java:82
+msgid "Setting up Wildernether for SlimeHUD..."
+msgstr "正在為 Wildernether 設定 SlimeHUD..."
+
+#: src/main/java/me/schntgaispock/wildernether/Wildernether.java:85
+msgid "This server is using an old version of SlimeHUD that is incompatitable with this version of Wildernether."
+msgstr "此伺服器正在使用舊版本的 SlimeHUD，該版本不相容於此版本的 Wildernether。"
+
+#: src/main/java/me/schntgaispock/wildernether/Wildernether.java:86
+msgid "Please update SlimeHUD to version 1.2.0 or higher!"
+msgstr "請更新 SlimeHUD 到 1.2.0 版本或更高！"
+
+#: src/main/java/me/schntgaispock/wildernether/integration/SlimeHUDSetup.java:13
+msgid "&7| Mode: "
+msgstr "&7｜模式："
+
+#: src/main/java/me/schntgaispock/wildernether/slimefun/WildernetherStacks.java:65
+msgid "Wildernether"
+msgstr "荒野地獄"
+
+#: src/main/java/me/schntgaispock/wildernether/slimefun/WildernetherStacks.java:70
+msgid "Materials"
+msgstr "材料"
+
+#: src/main/java/me/schntgaispock/wildernether/slimefun/WildernetherStacks.java:75
+msgid "Tools"
+msgstr "工具"
+
+#: src/main/java/me/schntgaispock/wildernether/slimefun/WildernetherStacks.java:80
+msgid "Plants"
+msgstr "植物"
+
+#: src/main/java/me/schntgaispock/wildernether/slimefun/WildernetherStacks.java:85
+msgid "Cuisine"
+msgstr "料理"
+
+#: src/main/java/me/schntgaispock/wildernether/slimefun/WildernetherStacks.java:90
+msgid "Brews"
+msgstr "釀造"
+
+#: src/main/java/me/schntgaispock/wildernether/slimefun/WildernetherStacks.java:95
+msgid "Any Hoglin meat"
+msgstr "任何豬布獸的肉"
+
+#: src/main/java/me/schntgaispock/wildernether/slimefun/WildernetherStacks.java:100
+msgid "&bBreak Nether Plants"
+msgstr "&b破壞地獄中的植物"
+
+#: src/main/java/me/schntgaispock/wildernether/slimefun/WildernetherStacks.java:101
+msgid "&7This resource is obtained by harvesting"
+msgstr "&7此資源是透過使用鐮刀"
+
+#: src/main/java/me/schntgaispock/wildernether/slimefun/WildernetherStacks.java:102
+msgid "&7(breaking) plants in the nether with a"
+msgstr "&7在地獄收割（破壞）植物"
+
+#: src/main/java/me/schntgaispock/wildernether/slimefun/WildernetherStacks.java:103
+msgid "&7scythe. The available plants are Nether Sprouts,"
+msgstr "&7所取得的。可以收割的植物包括："
+
+#: src/main/java/me/schntgaispock/wildernether/slimefun/WildernetherStacks.java:104
+msgid "&7Warped Roots, Warped Fungus, Twisting Vines,"
+msgstr "&7地獄芽、扭曲蕈根、扭曲蕈菇"
+
+#: src/main/java/me/schntgaispock/wildernether/slimefun/WildernetherStacks.java:105
+msgid "&7Crimson Root, Crimson Fungus, Weeping Vines,"
+msgstr "&7扭曲藤、緋紅蕈根、緋紅蕈菇"
+
+#: src/main/java/me/schntgaispock/wildernether/slimefun/WildernetherStacks.java:106
+msgid "&7and Shroomlight"
+msgstr "&7垂泣藤和蕈光體"
+
+#: src/main/java/me/schntgaispock/wildernether/slimefun/WildernetherStacks.java:111
+msgid "&bBlackstone Stove (Oven)"
+msgstr "&b黑石爐灶（烤箱）"
+
+#: src/main/java/me/schntgaispock/wildernether/slimefun/WildernetherStacks.java:112
+msgctxt "wildenether_recipe_blackstone_stove_oven.lore.01"
+msgid "&7This recipe is crafted using the Blackstone"
+msgstr "&7這個配方使用黑石爐灶的烤箱模式所製作。"
+
+#: src/main/java/me/schntgaispock/wildernether/slimefun/WildernetherStacks.java:113
+msgctxt "wildenether_recipe_blackstone_stove_oven.lore.02"
+msgid "&7Stove's oven mode. This is the default."
+msgstr "&7這是預設模式。"
+
+#: src/main/java/me/schntgaispock/wildernether/slimefun/WildernetherStacks.java:118
+msgid "&bBlackstone Stove (Frying)"
+msgstr "&b黑石爐灶（油炸）"
+
+#: src/main/java/me/schntgaispock/wildernether/slimefun/WildernetherStacks.java:119
+msgctxt "wildenether_recipe_blackstone_stove_frying.lore.01"
+msgid "&7This recipe is crafted using the Blackstone"
+msgstr "&7這個配方使用黑石爐灶的油炸模式所製作。"
+
+#: src/main/java/me/schntgaispock/wildernether/slimefun/WildernetherStacks.java:120
+msgctxt "wildenether_recipe_blackstone_stove_frying.lore.02"
+msgid "&7Stove's frying mode. Place a Heavy Weighted"
+msgstr "&7將重質測重壓力板放置在爐灶上方"
+
+#: src/main/java/me/schntgaispock/wildernether/slimefun/WildernetherStacks.java:121
+msgctxt "wildenether_recipe_blackstone_stove_frying.lore.03"
+msgid "&7Pressure Plate (Iron Pressure Plate) on top"
+msgstr "&7（鐵壓力板）"
+
+#: src/main/java/me/schntgaispock/wildernether/slimefun/WildernetherStacks.java:122
+msgctxt "wildenether_recipe_blackstone_stove_frying.lore.04"
+msgid "&7of the stove to use this mode."
+msgstr "&7來使用此模式。"
+
+#: src/main/java/me/schntgaispock/wildernether/slimefun/WildernetherStacks.java:127
+msgid "&bBlackstone Stove (Pot)"
+msgstr "&b黑石爐灶（鍋子）"
+
+#: src/main/java/me/schntgaispock/wildernether/slimefun/WildernetherStacks.java:128
+msgctxt "wildenether_recipe_blackstone_stove_pot.lore.01"
+msgid "&7This recipe is crafted using the Blackstone"
+msgstr "&7這個配方使用黑石爐灶的鍋子模式所製作。"
+
+#: src/main/java/me/schntgaispock/wildernether/slimefun/WildernetherStacks.java:129
+msgctxt "wildenether_recipe_blackstone_stove_pot.lore.02"
+msgid "&7Stove's pot mode. Place a Cauldron on top"
+msgstr "&7將鍋釜放置在爐灶上方"
+
+#: src/main/java/me/schntgaispock/wildernether/slimefun/WildernetherStacks.java:130
+msgctxt "wildenether_recipe_blackstone_stove_pot.lore.03"
+msgid "&7of the stove to use this mode."
+msgstr "&7來使用此模式。"
+
+#: src/main/java/me/schntgaispock/wildernether/slimefun/WildernetherStacks.java:135
+msgid "&bBlackstone Stove (Brewing)"
+msgstr "&b黑石爐灶（釀造）"
+
+#: src/main/java/me/schntgaispock/wildernether/slimefun/WildernetherStacks.java:136
+msgctxt "wildenether_recipe_blackstone_stove_brewing.lore.01"
+msgid "&7This recipe is crafted using the Blackstone"
+msgstr "&7這個配方使用黑石爐灶的釀造模式所製作。"
+
+#: src/main/java/me/schntgaispock/wildernether/slimefun/WildernetherStacks.java:137
+msgctxt "wildenether_recipe_blackstone_stove_brewing.lore.02"
+msgid "&7Stove's brewing mode. Place a Light Weighted"
+msgstr "&7將輕質測重壓力板放置在爐灶上方"
+
+#: src/main/java/me/schntgaispock/wildernether/slimefun/WildernetherStacks.java:138
+msgctxt "wildenether_recipe_blackstone_stove_brewing.lore.03"
+msgid "&7Pressure Plate (Gold Pressure Plate) on top"
+msgstr "&7（金壓力板）"
+
+#: src/main/java/me/schntgaispock/wildernether/slimefun/WildernetherStacks.java:139
+msgctxt "wildenether_recipe_blackstone_stove_brewing.lore.04"
+msgid "&7of the stove to use this mode. Water Bottles"
+msgstr "&7來使用此模式。"
+
+#: src/main/java/me/schntgaispock/wildernether/slimefun/WildernetherStacks.java:140
+msgctxt "wildenether_recipe_blackstone_stove_brewing.lore.05"
+msgid "&7can be substituted with Cactus Juice."
+msgstr "&7可以用仙人掌汁替代水瓶。"
+
+#: src/main/java/me/schntgaispock/wildernether/slimefun/WildernetherStacks.java:145
+msgid "&bHunting"
+msgstr "&b狩獵"
+
+#: src/main/java/me/schntgaispock/wildernether/slimefun/WildernetherStacks.java:146
+msgid "&7This item is obtained by killing the"
+msgstr "&7這件物品取得的方式"
+
+#: src/main/java/me/schntgaispock/wildernether/slimefun/WildernetherStacks.java:147
+msgid "&7Specified mob"
+msgstr "&7是殺死特定生物"
+
+#: src/main/java/me/schntgaispock/wildernether/slimefun/WildernetherStacks.java:152
+msgid "&fHoglin"
+msgstr "&f豬布獸"
+
+#: src/main/java/me/schntgaispock/wildernether/slimefun/WildernetherStacks.java:162
+msgid "Crimson Frame"
+msgstr "緋紅蕈木框架"
+
+#: src/main/java/me/schntgaispock/wildernether/slimefun/WildernetherStacks.java:164
+msgctxt "wildenether_crimson_frame.lore.01"
+msgid "A sturdy frame made from the stem of"
+msgstr "由巨大緋紅蕈菇的莖"
+
+#: src/main/java/me/schntgaispock/wildernether/slimefun/WildernetherStacks.java:165
+msgctxt "wildenether_crimson_frame.lore.02"
+msgid "a large Crimson Fungus"
+msgstr "所製成的堅硬框架"
+
+#: src/main/java/me/schntgaispock/wildernether/slimefun/WildernetherStacks.java:172
+msgid "Warped Frame"
+msgstr "扭曲蕈木框架"
+
+#: src/main/java/me/schntgaispock/wildernether/slimefun/WildernetherStacks.java:174
+msgctxt "wildenether_warped_frame.lore.01"
+msgid "A sturdy frame made from the stem of"
+msgstr "由巨大扭曲蕈菇的莖"
+
+#: src/main/java/me/schntgaispock/wildernether/slimefun/WildernetherStacks.java:175
+msgctxt "wildenether_warped_frame.lore.02"
+msgid "a large Warped Fungus"
+msgstr "所製成的堅硬框架"
+
+#: src/main/java/me/schntgaispock/wildernether/slimefun/WildernetherStacks.java:182
+msgid "Soul Stone"
+msgstr "靈魂石"
+
+#: src/main/java/me/schntgaispock/wildernether/slimefun/WildernetherStacks.java:184
+msgid "You can hear strange whisperings coming"
+msgstr "你可以聽到來自這顆石頭"
+
+#: src/main/java/me/schntgaispock/wildernether/slimefun/WildernetherStacks.java:185
+msgid "from deep within"
+msgstr "內部深處的詭異低語"
+
+#: src/main/java/me/schntgaispock/wildernether/slimefun/WildernetherStacks.java:192
+msgid "Fungal Iron Scrap"
+msgstr "真菌鐵碎片"
+
+#: src/main/java/me/schntgaispock/wildernether/slimefun/WildernetherStacks.java:194
+msgctxt "wildenether_fungal_iron_scrap.lore.01"
+msgid "A piece of scrap iron overgrown"
+msgstr "一片上方長滿"
+
+#: src/main/java/me/schntgaispock/wildernether/slimefun/WildernetherStacks.java:195
+msgctxt "wildenether_fungal_iron_scrap.lore.02"
+msgid "with fungus"
+msgstr "真菌的鐵碎片"
+
+#: src/main/java/me/schntgaispock/wildernether/slimefun/WildernetherStacks.java:197
+#: src/main/java/me/schntgaispock/wildernether/slimefun/WildernetherStacks.java:209
+msgid "&7&oUsable in Workbench"
+msgstr "&7&o可以在普通工作台中使用"
+
+#: src/main/java/me/schntgaispock/wildernether/slimefun/WildernetherStacks.java:204
+msgid "Fungal Gold Scrap"
+msgstr "真菌金碎片"
+
+#: src/main/java/me/schntgaispock/wildernether/slimefun/WildernetherStacks.java:206
+msgctxt "wildenether_fungal_gold_scrap.lore.01"
+msgid "A piece of scrap gold overgrown"
+msgstr "一片上方長滿"
+
+#: src/main/java/me/schntgaispock/wildernether/slimefun/WildernetherStacks.java:207
+msgctxt "wildenether_fungal_gold_scrap.lore.02"
+msgid "with fungus"
+msgstr "真菌的金碎片"
+
+#: src/main/java/me/schntgaispock/wildernether/slimefun/WildernetherStacks.java:217
+msgid "Blackstone Scythe"
+msgstr "黑石鐮刀"
+
+#: src/main/java/me/schntgaispock/wildernether/slimefun/WildernetherStacks.java:219
+msgid "Its extra-sharp blade makes it perfect"
+msgstr "它的超鋒利刀刃使其"
+
+#: src/main/java/me/schntgaispock/wildernether/slimefun/WildernetherStacks.java:220
+msgid "for cutting the tough plants that grow"
+msgstr "非常適合在割下在"
+
+#: src/main/java/me/schntgaispock/wildernether/slimefun/WildernetherStacks.java:221
+msgid "in the nether"
+msgstr "地獄中生長的堅韌植物"
+
+#: src/main/java/me/schntgaispock/wildernether/slimefun/WildernetherStacks.java:228
+msgid "Soul Scythe"
+msgstr "靈魂鐮刀"
+
+#: src/main/java/me/schntgaispock/wildernether/slimefun/WildernetherStacks.java:230
+msgid "Its blade quivers with soft whispers."
+msgstr "它的刀刃顫抖著輕輕的低語聲。"
+
+#: src/main/java/me/schntgaispock/wildernether/slimefun/WildernetherStacks.java:231
+msgid "If you use this to harvest plants in the"
+msgstr "如果你使用此去收割地獄中的"
+
+#: src/main/java/me/schntgaispock/wildernether/slimefun/WildernetherStacks.java:232
+msgid "nether, you might discover plants with"
+msgstr "植物，你可能會發現一些"
+
+#: src/main/java/me/schntgaispock/wildernether/slimefun/WildernetherStacks.java:233
+msgid "secrets to tell!"
+msgstr "想講秘密故事的植物！"
+
+#: src/main/java/me/schntgaispock/wildernether/slimefun/WildernetherStacks.java:240
+msgid "Nether Composter"
+msgstr "地獄堆肥箱"
+
+#: src/main/java/me/schntgaispock/wildernether/slimefun/WildernetherStacks.java:242
+msgid "Crafted with the wood of the underworld,"
+msgstr "用地獄的木頭所製作的，"
+
+#: src/main/java/me/schntgaispock/wildernether/slimefun/WildernetherStacks.java:243
+msgid "it is suitable for breaking down even"
+msgstr "適合用於分解"
+
+#: src/main/java/me/schntgaispock/wildernether/slimefun/WildernetherStacks.java:244
+msgid "the hardiest of plants"
+msgstr "最堅硬的植物"
+
+#: src/main/java/me/schntgaispock/wildernether/slimefun/WildernetherStacks.java:251
+msgid "Blackstone Stove"
+msgstr "黑石爐灶"
+
+#: src/main/java/me/schntgaispock/wildernether/slimefun/WildernetherStacks.java:253
+msgid "Using netherrack, it is able to keep"
+msgstr "其底部使用了地獄石，"
+
+#: src/main/java/me/schntgaispock/wildernether/slimefun/WildernetherStacks.java:254
+msgid "itself lit forever!"
+msgstr "使其永不熄滅！"
+
+#: src/main/java/me/schntgaispock/wildernether/slimefun/WildernetherStacks.java:262
+msgid "Warped Cactus"
+msgstr "扭曲仙人掌"
+
+#: src/main/java/me/schntgaispock/wildernether/slimefun/WildernetherStacks.java:264
+msgid "A tiny, twisted cactus growing from the"
+msgstr "一種微小又扭曲的仙人掌"
+
+#: src/main/java/me/schntgaispock/wildernether/slimefun/WildernetherStacks.java:265
+msgid "hypha of a warped fungus. Be careful not"
+msgstr "長在扭曲蕈菇的菌絲上。"
+
+#: src/main/java/me/schntgaispock/wildernether/slimefun/WildernetherStacks.java:266
+msgid "to step on it!"
+msgstr "小心別踩到它！"
+
+#: src/main/java/me/schntgaispock/wildernether/slimefun/WildernetherStacks.java:273
+msgid "Blazesprout"
+msgstr "烈焰芽苗"
+
+#: src/main/java/me/schntgaispock/wildernether/slimefun/WildernetherStacks.java:275
+msgid "The hypha of a nether fungus has"
+msgstr "烈焰使者周圍所散發的"
+
+#: src/main/java/me/schntgaispock/wildernether/slimefun/WildernetherStacks.java:276
+msgid "absorbed some powder from a blaze,"
+msgstr "粉末，被地獄中真菌"
+
+#: src/main/java/me/schntgaispock/wildernether/slimefun/WildernetherStacks.java:277
+msgid "leading to the formation of a fiery"
+msgstr "所吸收，形成出"
+
+#: src/main/java/me/schntgaispock/wildernether/slimefun/WildernetherStacks.java:278
+msgid "blister."
+msgstr "熾烈水泡。"
+
+#: src/main/java/me/schntgaispock/wildernether/slimefun/WildernetherStacks.java:280
+msgid "&7&oUse in the Nether Composter"
+msgstr "&7&o在地獄堆肥箱中使用"
+
+#: src/main/java/me/schntgaispock/wildernether/slimefun/WildernetherStacks.java:287
+msgid "Nether Tubers"
+msgstr "地獄塊莖"
+
+#: src/main/java/me/schntgaispock/wildernether/slimefun/WildernetherStacks.java:289
+msgid "It's a potato."
+msgstr "這就是顆馬鈴薯。"
+
+#: src/main/java/me/schntgaispock/wildernether/slimefun/WildernetherStacks.java:296
+msgid "Crystal Mushroom"
+msgstr "水晶蘑菇"
+
+#: src/main/java/me/schntgaispock/wildernether/slimefun/WildernetherStacks.java:298
+msgid "An excess of quartz in its surroundings"
+msgstr "周圍環境石英過多所產生了"
+
+#: src/main/java/me/schntgaispock/wildernether/slimefun/WildernetherStacks.java:299
+msgid "has given rise to this strange mushroom,"
+msgstr "這顆奇怪的蘑菇，蘑菇的"
+
+#: src/main/java/me/schntgaispock/wildernether/slimefun/WildernetherStacks.java:300
+msgid "growing crystals of quartz in its cap"
+msgstr "頂部長滿著水晶般的石英"
+
+#: src/main/java/me/schntgaispock/wildernether/slimefun/WildernetherStacks.java:307
+msgid "Shroomlight Spores"
+msgstr "蕈光體孢子"
+
+#: src/main/java/me/schntgaispock/wildernether/slimefun/WildernetherStacks.java:309
+msgid "These spores don't appear to glow, unlike"
+msgstr "與從它原本的植物掉落的地方不同，"
+
+#: src/main/java/me/schntgaispock/wildernether/slimefun/WildernetherStacks.java:310
+msgid "the bulbs that they dropped from."
+msgstr "這些孢子似乎不會發光。"
+
+#: src/main/java/me/schntgaispock/wildernether/slimefun/WildernetherStacks.java:317
+msgid "Warped Rose"
+msgstr "扭曲玫瑰"
+
+#: src/main/java/me/schntgaispock/wildernether/slimefun/WildernetherStacks.java:319
+msgid "This rose's thorns are bigger than its"
+msgstr "這朵玫瑰的刺比"
+
+#: src/main/java/me/schntgaispock/wildernether/slimefun/WildernetherStacks.java:320
+msgid "leaves"
+msgstr "自己的葉子還大"
+
+#: src/main/java/me/schntgaispock/wildernether/slimefun/WildernetherStacks.java:327
+msgid "Red Carrot"
+msgstr "鮮紅胡蘿蔔"
+
+#: src/main/java/me/schntgaispock/wildernether/slimefun/WildernetherStacks.java:329
+msgid "It's red"
+msgstr "紅彤彤"
+
+#: src/main/java/me/schntgaispock/wildernether/slimefun/WildernetherStacks.java:337
+msgid "Crimson Dreadlocks"
+msgstr "緋紅長髮綹"
+
+#: src/main/java/me/schntgaispock/wildernether/slimefun/WildernetherStacks.java:339
+msgid "Each one of these vines is as thick as"
+msgstr "每根藤蔓都如同"
+
+#: src/main/java/me/schntgaispock/wildernether/slimefun/WildernetherStacks.java:340
+msgid "your arm..."
+msgstr "你的手臂一樣粗……"
+
+#: src/main/java/me/schntgaispock/wildernether/slimefun/WildernetherStacks.java:347
+msgid "Twisted Bean Sprout"
+msgstr "扭曲藤豆芽"
+
+#: src/main/java/me/schntgaispock/wildernether/slimefun/WildernetherStacks.java:349
+msgid "High source of fibre!"
+msgstr "高纖維的來源！"
+
+#: src/main/java/me/schntgaispock/wildernether/slimefun/WildernetherStacks.java:356
+msgid "Red Spider Lily"
+msgstr "鮮紅蜘蛛百合花"
+
+#: src/main/java/me/schntgaispock/wildernether/slimefun/WildernetherStacks.java:358
+msgid "Its curling petals seem to be grabbing"
+msgstr "它捲曲的花瓣似乎"
+
+#: src/main/java/me/schntgaispock/wildernether/slimefun/WildernetherStacks.java:359
+msgid "at you"
+msgstr "正在抓著你"
+
+#: src/main/java/me/schntgaispock/wildernether/slimefun/WildernetherStacks.java:366
+msgid "Warped Lotus"
+msgstr "扭曲蓮花"
+
+#: src/main/java/me/schntgaispock/wildernether/slimefun/WildernetherStacks.java:368
+msgid "Don't they normally grow on water?"
+msgstr "它們通常不都在水中生長的嗎？"
+
+#: src/main/java/me/schntgaispock/wildernether/slimefun/WildernetherStacks.java:376
+msgid "Smoldering Herbs"
+msgstr "陰燃香草"
+
+#: src/main/java/me/schntgaispock/wildernether/slimefun/WildernetherStacks.java:378
+msgid "They don't actually burn"
+msgstr "它們實際上並不會燃燒"
+
+#: src/main/java/me/schntgaispock/wildernether/slimefun/WildernetherStacks.java:385
+msgid "Immolated Vines"
+msgstr "犧牲藤蔓"
+
+#: src/main/java/me/schntgaispock/wildernether/slimefun/WildernetherStacks.java:387
+msgid "Even after being cut from the fungus,"
+msgstr "即使從真菌上切下來後，"
+
+#: src/main/java/me/schntgaispock/wildernether/slimefun/WildernetherStacks.java:388
+msgid "it pulsates like a heart"
+msgstr "它仍然像是心臟一樣跳動"
+
+#: src/main/java/me/schntgaispock/wildernether/slimefun/WildernetherStacks.java:395
+msgid "Octarine Nethercap"
+msgstr "玲瓏獄菇"
+
+#: src/main/java/me/schntgaispock/wildernether/slimefun/WildernetherStacks.java:397
+msgid "A fluorescent greenish-yellow purple"
+msgstr "螢光黃綠色的紫色"
+
+#: src/main/java/me/schntgaispock/wildernether/slimefun/WildernetherStacks.java:404
+msgid "Emerald Firebloom"
+msgstr "翡翠火焰花"
+
+#: src/main/java/me/schntgaispock/wildernether/slimefun/WildernetherStacks.java:406
+msgid "Its petals undulate like the flames"
+msgstr "它的花瓣就如同"
+
+#: src/main/java/me/schntgaispock/wildernether/slimefun/WildernetherStacks.java:407
+msgid "of a fire"
+msgstr "火焰般的起伏"
+
+#: src/main/java/me/schntgaispock/wildernether/slimefun/WildernetherStacks.java:416
+msgid "Garden of the Lost Soul"
+msgstr "失魂花園"
+
+#: src/main/java/me/schntgaispock/wildernether/slimefun/WildernetherStacks.java:417
+msgid "&7Chapter 1"
+msgstr "&7章節一"
+
+#: src/main/java/me/schntgaispock/wildernether/slimefun/WildernetherStacks.java:419
+msgid "The only refuge in this blazing land"
+msgstr "對於被困住在這片熾熱地獄的"
+
+#: src/main/java/me/schntgaispock/wildernether/slimefun/WildernetherStacks.java:420
+msgid "for the adventurer trapped in hell."
+msgstr "冒險家來說，這是唯一的庇護所。"
+
+#: src/main/java/me/schntgaispock/wildernether/slimefun/WildernetherStacks.java:421
+msgid "He cultivated this garden with the"
+msgstr "他用主世界的花栽培出了"
+
+#: src/main/java/me/schntgaispock/wildernether/slimefun/WildernetherStacks.java:422
+msgid "flora of a peaceful world, escaping"
+msgstr "這片花園，來逃入這暫時性"
+
+#: src/main/java/me/schntgaispock/wildernether/slimefun/WildernetherStacks.java:423
+msgid "into a transient dream"
+msgstr "的夢境幻想之中。"
+
+#: src/main/java/me/schntgaispock/wildernether/slimefun/WildernetherStacks.java:430
+msgid "Tulip of Partings"
+msgstr "離別之花鬱金香"
+
+#: src/main/java/me/schntgaispock/wildernether/slimefun/WildernetherStacks.java:431
+msgid "&7Chapter 2"
+msgstr "&7章節二"
+
+#: src/main/java/me/schntgaispock/wildernether/slimefun/WildernetherStacks.java:433
+msgid "His oasis, the winds of the wastes"
+msgstr "在這片荒野中，他的綠洲被"
+
+#: src/main/java/me/schntgaispock/wildernether/slimefun/WildernetherStacks.java:434
+msgid "scattered and warped. In the end"
+msgstr "狂風吹的散亂且扭曲。"
+
+#: src/main/java/me/schntgaispock/wildernether/slimefun/WildernetherStacks.java:435
+msgid "the adventurer was left with a single"
+msgstr "最終冒險家所剩下的就"
+
+#: src/main/java/me/schntgaispock/wildernether/slimefun/WildernetherStacks.java:436
+msgid "fragile tulip, the only reminder of"
+msgstr "只有一朵脆弱的鬱金香，"
+
+#: src/main/java/me/schntgaispock/wildernether/slimefun/WildernetherStacks.java:437
+msgid "the world from which he came"
+msgstr "這是唯一能提醒他曾經是來自於其他世界的。"
+
+#: src/main/java/me/schntgaispock/wildernether/slimefun/WildernetherStacks.java:444
+msgid "Bloom of Unheard Cries"
+msgstr "未曾被聽見的哭泣之花"
+
+#: src/main/java/me/schntgaispock/wildernether/slimefun/WildernetherStacks.java:445
+msgid "&7Chapter 3"
+msgstr "&7章節三"
+
+#: src/main/java/me/schntgaispock/wildernether/slimefun/WildernetherStacks.java:447
+msgid "Gone was his sanctuary, every last"
+msgstr "他的庇護所已經消失了，"
+
+#: src/main/java/me/schntgaispock/wildernether/slimefun/WildernetherStacks.java:448
+msgid "bloom warped into horror. Fearing the"
+msgstr "每朵花都扭曲成恐怖的模樣。"
+
+#: src/main/java/me/schntgaispock/wildernether/slimefun/WildernetherStacks.java:449
+msgid "dangers of staying there, he set out"
+msgstr "他害怕留在那裡會有危險，"
+
+#: src/main/java/me/schntgaispock/wildernether/slimefun/WildernetherStacks.java:450
+msgid "to find a way home. Alas, his shouts"
+msgstr "於是出發尋找回家的路。"
+
+#: src/main/java/me/schntgaispock/wildernether/slimefun/WildernetherStacks.java:451
+msgid "reached nothing but the domineering"
+msgstr "他大喊了一聲，然而呼喊沒有傳到任何事物中，"
+
+#: src/main/java/me/schntgaispock/wildernether/slimefun/WildernetherStacks.java:452
+msgid "netherrack sky, and the brown sand"
+msgstr "只有那充滿著支配性的地獄石天空之中，"
+
+#: src/main/java/me/schntgaispock/wildernether/slimefun/WildernetherStacks.java:453
+msgid "dragging down his feet"
+msgstr "且他的腳步也被那棕色般的沙子拖住了。"
+
+#: src/main/java/me/schntgaispock/wildernether/slimefun/WildernetherStacks.java:460
+msgid "Blossom of Solitude"
+msgstr "孤寂之花"
+
+#: src/main/java/me/schntgaispock/wildernether/slimefun/WildernetherStacks.java:461
+msgid "&7Chapter 4"
+msgstr "&7章節四"
+
+#: src/main/java/me/schntgaispock/wildernether/slimefun/WildernetherStacks.java:463
+msgid "After days of walking, the adventurer"
+msgstr "走了幾天後，冒險家再也走不動了。"
+
+#: src/main/java/me/schntgaispock/wildernether/slimefun/WildernetherStacks.java:464
+msgid "could move no longer. He collapsed on the"
+msgstr "他倒在堅硬的岩石上，"
+
+#: src/main/java/me/schntgaispock/wildernether/slimefun/WildernetherStacks.java:465
+msgid "hard rock, scarlet blood flowing from"
+msgstr "鮮血從潰爛的傷口之中流出。"
+
+#: src/main/java/me/schntgaispock/wildernether/slimefun/WildernetherStacks.java:466
+msgid "festering wounds. No more did he feel the"
+msgstr "他再也感受不到刺痛的刮傷，"
+
+#: src/main/java/me/schntgaispock/wildernether/slimefun/WildernetherStacks.java:467
+msgid "itch of a stinging scrape, nor the aching"
+msgstr "和空洞的胃"
+
+#: src/main/java/me/schntgaispock/wildernether/slimefun/WildernetherStacks.java:468
+msgid "of an empty stomach."
+msgstr "所傳來的疼痛感。"
+
+#: src/main/java/me/schntgaispock/wildernether/slimefun/WildernetherStacks.java:475
+msgid "Lament of the Damned"
+msgstr "被詛咒者的哀歌"
+
+#: src/main/java/me/schntgaispock/wildernether/slimefun/WildernetherStacks.java:476
+msgid "&7Chapter 5"
+msgstr "&7章節五"
+
+#: src/main/java/me/schntgaispock/wildernether/slimefun/WildernetherStacks.java:478
+msgid "Once fiery brimstone, this land became"
+msgstr "這片曾經是熾熱的硫磺所覆蓋的世界，"
+
+#: src/main/java/me/schntgaispock/wildernether/slimefun/WildernetherStacks.java:479
+msgid "overgrown with the twisted forms of flora"
+msgstr "現在被隨風飛舞的扭曲型式植物群侵蝕著，"
+
+#: src/main/java/me/schntgaispock/wildernether/slimefun/WildernetherStacks.java:480
+msgid "that flew on the wind, and mutated with"
+msgstr "並改變了這裡的樣貌，"
+
+#: src/main/java/me/schntgaispock/wildernether/slimefun/WildernetherStacks.java:481
+msgid "time. However, no more could his soul be"
+msgstr "且隨著時間而繼續變異。"
+
+#: src/main/java/me/schntgaispock/wildernether/slimefun/WildernetherStacks.java:482
+msgid "soothed, for he was damned to this"
+msgstr "然而他的靈魂永遠得不到安寧，"
+
+#: src/main/java/me/schntgaispock/wildernether/slimefun/WildernetherStacks.java:483
+msgid "unknown land for the rest of eternity"
+msgstr "因為他被永遠的困在這片受詛咒的未知土地之上。"
+
+#: src/main/java/me/schntgaispock/wildernether/slimefun/WildernetherStacks.java:494
+msgid "Hoglin Spare Rib"
+msgstr "豬布獸排骨肉"
+
+#: src/main/java/me/schntgaispock/wildernether/slimefun/WildernetherStacks.java:496
+msgctxt "wildenether_hoglin_spare_rib.lore.01"
+msgid "A thick cut of meat from the side"
+msgstr "從豬布獸側邊"
+
+#: src/main/java/me/schntgaispock/wildernether/slimefun/WildernetherStacks.java:497
+msgctxt "wildenether_hoglin_spare_rib.lore.02"
+msgid "of a hoglin"
+msgstr "切下來厚厚的肉"
+
+#: src/main/java/me/schntgaispock/wildernether/slimefun/WildernetherStacks.java:504
+msgid "Hoglin Belly"
+msgstr "豬布獸腹肉"
+
+#: src/main/java/me/schntgaispock/wildernether/slimefun/WildernetherStacks.java:506
+msgctxt "wildenether_hoglin_belly.lore.01"
+msgid "A fatty cut of meat from the underside"
+msgstr "從豬布獸下方腹部"
+
+#: src/main/java/me/schntgaispock/wildernether/slimefun/WildernetherStacks.java:507
+msgctxt "wildenether_hoglin_belly.lore.02"
+msgid "of a hoglin"
+msgstr "所切下的肥肉"
+
+#: src/main/java/me/schntgaispock/wildernether/slimefun/WildernetherStacks.java:514
+msgid "Hoglin Trotters"
+msgstr "豬布獸蹄"
+
+#: src/main/java/me/schntgaispock/wildernether/slimefun/WildernetherStacks.java:516
+msgid "The foot of a hoglin"
+msgstr "豬布獸的腳"
+
+#: src/main/java/me/schntgaispock/wildernether/slimefun/WildernetherStacks.java:523
+msgid "Hoglin Bouillon"
+msgstr "豬布肉湯"
+
+#: src/main/java/me/schntgaispock/wildernether/slimefun/WildernetherStacks.java:525
+msgid "A flavourful broth made by simmering"
+msgstr "用豬布獸的肉所燉煮"
+
+#: src/main/java/me/schntgaispock/wildernether/slimefun/WildernetherStacks.java:526
+msgid "hoglin meat"
+msgstr "而成的美味肉湯"
+
+#: src/main/java/me/schntgaispock/wildernether/slimefun/WildernetherStacks.java:533
+msgid "Boiled Warped Cactus"
+msgstr "水煮的扭曲仙人掌"
+
+#: src/main/java/me/schntgaispock/wildernether/slimefun/WildernetherStacks.java:535
+msgid "You can eat cactus?"
+msgstr "你現在能吃仙人掌了？"
+
+#: src/main/java/me/schntgaispock/wildernether/slimefun/WildernetherStacks.java:545
+msgid "Cactus Juice"
+msgstr "仙人掌汁"
+
+#: src/main/java/me/schntgaispock/wildernether/slimefun/WildernetherStacks.java:547
+msgid "A regular water bottle that smells"
+msgstr "一種散發著淡淡地硫磺"
+
+#: src/main/java/me/schntgaispock/wildernether/slimefun/WildernetherStacks.java:548
+msgid "faintly of sulfur and cactus"
+msgstr "和仙人掌味道的普通水瓶"
+
+#: src/main/java/me/schntgaispock/wildernether/slimefun/WildernetherStacks.java:558
+msgid "Warped Salad"
+msgstr "扭曲沙拉餐"
+
+#: src/main/java/me/schntgaispock/wildernether/slimefun/WildernetherStacks.java:560
+msgid "Salads are green, so its okay to eat"
+msgstr "沙拉也是綠色的，所以可以安心食用"
+
+#: src/main/java/me/schntgaispock/wildernether/slimefun/WildernetherStacks.java:569
+msgid "Mushroom Slices"
+msgstr "蘑菇切片"
+
+#: src/main/java/me/schntgaispock/wildernether/slimefun/WildernetherStacks.java:571
+msgid "An assortment of oddly coloured fungi"
+msgstr "一系列奇怪顏色的真菌蘑菇切片"
+
+#: src/main/java/me/schntgaispock/wildernether/slimefun/WildernetherStacks.java:580
+msgid "Baked Nether Tubers"
+msgstr "烤過的地獄塊莖"
+
+#: src/main/java/me/schntgaispock/wildernether/slimefun/WildernetherStacks.java:582
+msgid "It's a baked potato."
+msgstr "這就是顆烤過的馬鈴薯。"
+
+#: src/main/java/me/schntgaispock/wildernether/slimefun/WildernetherStacks.java:591
+msgid "Glowing Beans"
+msgstr "發光豆子"
+
+#: src/main/java/me/schntgaispock/wildernether/slimefun/WildernetherStacks.java:593
+msgid "It looks like cooking has brought out"
+msgstr "看起來在烹飪過程帶出來了"
+
+#: src/main/java/me/schntgaispock/wildernether/slimefun/WildernetherStacks.java:594
+msgid "The luminescent elements in the spores"
+msgstr "原有在孢子中的發光元素"
+
+#: src/main/java/me/schntgaispock/wildernether/slimefun/WildernetherStacks.java:604
+msgid "Nether Chips™"
+msgstr "洋獄片™"
+
+#: src/main/java/me/schntgaispock/wildernether/slimefun/WildernetherStacks.java:606
+msgid "You'll get fat if you eat too much"
+msgstr "吃太多會胖"
+
+#: src/main/java/me/schntgaispock/wildernether/slimefun/WildernetherStacks.java:615
+msgid "Fried Warped Fungus"
+msgstr "油炸扭曲蕈菇"
+
+#: src/main/java/me/schntgaispock/wildernether/slimefun/WildernetherStacks.java:617
+#: src/main/java/me/schntgaispock/wildernether/slimefun/WildernetherStacks.java:628
+msgid "Crunchy!"
+msgstr "酥脆！"
+
+#: src/main/java/me/schntgaispock/wildernether/slimefun/WildernetherStacks.java:626
+msgid "Fried Crimson Fungus"
+msgstr "油炸緋紅蕈菇"
+
+#: src/main/java/me/schntgaispock/wildernether/slimefun/WildernetherStacks.java:637
+msgid "Spicy Fried Lotus"
+msgstr "香辣油炸蓮花"
+
+#: src/main/java/me/schntgaispock/wildernether/slimefun/WildernetherStacks.java:639
+msgid "Sweet, savoury, &oand spicy!"
+msgstr "甜、香還有&o辣！"
+
+#: src/main/java/me/schntgaispock/wildernether/slimefun/WildernetherStacks.java:649
+msgid "Crimson Stew"
+msgstr "緋紅蕈菇湯"
+
+#: src/main/java/me/schntgaispock/wildernether/slimefun/WildernetherStacks.java:651
+msgid "A thick clump of fungus floats on the top."
+msgstr "上方漂浮著一團厚厚的真菌。"
+
+#: src/main/java/me/schntgaispock/wildernether/slimefun/WildernetherStacks.java:652
+#: src/main/java/me/schntgaispock/wildernether/slimefun/WildernetherStacks.java:664
+msgid "It should be safe to eat, right?"
+msgstr "應該可以安全食用，對吧？"
+
+#: src/main/java/me/schntgaispock/wildernether/slimefun/WildernetherStacks.java:661
+msgid "Warped Stew"
+msgstr "扭曲蕈湯"
+
+#: src/main/java/me/schntgaispock/wildernether/slimefun/WildernetherStacks.java:663
+msgid "The surface of the soup shines green."
+msgstr "湯的表面有著閃閃發亮的綠色。"
+
+#: src/main/java/me/schntgaispock/wildernether/slimefun/WildernetherStacks.java:673
+msgid "Nether Hotpot"
+msgstr "獄火鍋"
+
+#: src/main/java/me/schntgaispock/wildernether/slimefun/WildernetherStacks.java:675
+msgid "Piping hot!"
+msgstr "超級滾燙！"
+
+#: src/main/java/me/schntgaispock/wildernether/slimefun/WildernetherStacks.java:684
+msgid "Pork Bone Soup"
+msgstr "豬骨湯"
+
+#: src/main/java/me/schntgaispock/wildernether/slimefun/WildernetherStacks.java:686
+msgid "Very filling!"
+msgstr "非常的滿足又充實肚子！"
+
+#: src/main/java/me/schntgaispock/wildernether/slimefun/WildernetherStacks.java:695
+msgid "Boiled Nether Tubers"
+msgstr "煮熟的地獄塊莖"
+
+#: src/main/java/me/schntgaispock/wildernether/slimefun/WildernetherStacks.java:697
+msgid "It's a boiled potato."
+msgstr "這就是顆煮過的馬鈴薯。"
+
+#: src/main/java/me/schntgaispock/wildernether/slimefun/WildernetherStacks.java:708
+msgid "Brew of Fire Warding"
+msgstr "火焰守護藥水"
+
+#: src/main/java/me/schntgaispock/wildernether/slimefun/WildernetherStacks.java:719
+msgid "Brew of Farsight"
+msgstr "遠目藥水"
+
+#: src/main/java/me/schntgaispock/wildernether/slimefun/WildernetherStacks.java:730
+msgid "Brew of Celerity"
+msgstr "敏捷藥水"
+
+#: src/main/java/me/schntgaispock/wildernether/slimefun/items/BlackstoneStove.java:60
+msgid "Click to cook!"
+msgstr "點擊烹飪！"
+
+#: src/main/java/me/schntgaispock/wildernether/slimefun/items/BlackstoneStove.java:62
+msgid "&9Container"
+msgstr "&9容器"
+
+#: src/main/java/me/schntgaispock/wildernether/slimefun/items/BlackstoneStove.java:63
+msgid "Recipe"
+msgstr "配方"
+
+#: src/main/java/me/schntgaispock/wildernether/slimefun/items/BlackstoneStove.java:71
+msgid "&7Mode: &f"
+msgstr "&7模式：&f"
+
+#: src/main/java/me/schntgaispock/wildernether/slimefun/items/BlackstoneStove.java:154
+#, java-format
+msgid "Invalid {0} recipe!"
+msgstr "無效的{0}配方！"
+
+#: src/main/java/me/schntgaispock/wildernether/slimefun/items/BlackstoneStove.java:169
+msgid "Output is full!"
+msgstr "輸出已滿！"
+
+#: src/main/java/me/schntgaispock/wildernether/slimefun/items/BlackstoneStove.java:177
+msgid "Output is occupied!"
+msgstr "輸出已被佔用！"

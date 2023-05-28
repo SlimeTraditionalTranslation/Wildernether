@@ -25,6 +25,9 @@ import me.schntgaispock.wildernether.slimefun.recipes.RecipeCollection;
 import me.schntgaispock.wildernether.slimefun.recipes.StoveRecipe;
 import me.schntgaispock.wildernether.util.GeneralUtil;
 import me.schntgaispock.wildernether.util.Theme;
+import org.mini2Dx.gettext.GetText;
+
+import static com.slimetraditionaltranslation.StoveMode.stoveMode;
 
 /**
  * See the <a href="https://github.com/SchnTgaiSpock/Wildernether/wiki/Blackstone-Stove">Blackstone Stove wiki</a> for more details
@@ -54,10 +57,10 @@ public class BlackstoneStove extends MenuBlock {
     public static final int[] RECIPE_SLOTS = { 12, 13, 14, 21, 22, 23 };
     public static final int COOK_SLOT = GUI_COOK_SLOTS[0];
     public static final int OUTPUT_SLOT = 25;
-    public static final String COOK_CONFIRM_NAME = "Click to cook!";
+    public static final String COOK_CONFIRM_NAME = GetText.tr("Click to cook!");
 
-    public static final ItemStack BOWL_BORDER_ITEM = new CustomItemStack(Material.BLUE_STAINED_GLASS_PANE, "&9Container");
-    public static final ItemStack RECIPE_BORDER_ITEM = new CustomItemStack(Material.CAMPFIRE, Theme.CUISINE.getColor() + "Recipe");
+    public static final ItemStack BOWL_BORDER_ITEM = new CustomItemStack(Material.BLUE_STAINED_GLASS_PANE, GetText.tr("&9Container"));
+    public static final ItemStack RECIPE_BORDER_ITEM = new CustomItemStack(Material.CAMPFIRE, Theme.CUISINE.getColor() + GetText.tr("Recipe"));
 
     @ParametersAreNonnullByDefault
     public BlackstoneStove(ItemGroup ig, SlimefunItemStack is, RecipeType rt, ItemStack[] rc) {
@@ -65,7 +68,7 @@ public class BlackstoneStove extends MenuBlock {
     }
 
     public static ItemStack getCraftConfirmItem(@Nonnull Mode mode) {
-        return new CustomItemStack(Material.LIME_STAINED_GLASS_PANE, "&a" + COOK_CONFIRM_NAME, "&7Mode: &f" + mode.toString());
+        return new CustomItemStack(Material.LIME_STAINED_GLASS_PANE, "&a" + COOK_CONFIRM_NAME, GetText.tr("&7Mode: &f") + stoveMode(mode.toString()));
     }
 
     public static Mode getMode(Location l) {
@@ -148,7 +151,7 @@ public class BlackstoneStove extends MenuBlock {
 
             ItemStack recipeOutput = recipeCollection.getOrNull(currentRecipe);
             if (recipeOutput == null) {
-                player.sendMessage(Theme.CUISINE.getColor() + "Invalid " + getMode(b).toString().toLowerCase() + " recipe!");
+                player.sendMessage(Theme.CUISINE.getColor() + GetText.tr("Invalid {0} recipe!", stoveMode(getMode(b).toString())));
                 return false;
             }
 
@@ -163,7 +166,7 @@ public class BlackstoneStove extends MenuBlock {
             } else if (recipeOutput.isSimilar(currentlyInOutput)) {
                 // Failure
                 if (currentlyInOutput.getMaxStackSize() == currentlyInOutput.getAmount()) {
-                    player.sendMessage(Theme.CUISINE.getColor() + "Output is full!");
+                    player.sendMessage(Theme.CUISINE.getColor() + GetText.tr("Output is full!"));
                     return false;
                 }
                 // Success
@@ -171,7 +174,7 @@ public class BlackstoneStove extends MenuBlock {
             
             // Failure
             } else {
-                player.sendMessage(Theme.CUISINE.getColor() + "Output is occupied!");
+                player.sendMessage(Theme.CUISINE.getColor() + GetText.tr("Output is occupied!"));
                 return false;
             }
 

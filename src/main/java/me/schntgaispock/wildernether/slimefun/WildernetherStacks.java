@@ -11,6 +11,7 @@ import org.bukkit.Material;
 import org.bukkit.inventory.ItemStack;
 import org.bukkit.potion.PotionEffect;
 import org.bukkit.potion.PotionEffectType;
+import org.mini2Dx.gettext.GetText;
 
 public class WildernetherStacks {
 
@@ -61,97 +62,94 @@ public class WildernetherStacks {
         // ---------- Guide Items ----------
         GUIDE_WILDERNETHER = new CustomItemStack(
             Material.WARPED_ROOTS,
-            Theme.WARPED.getColor() + "Wildernether"
+            Theme.WARPED.getColor() + GetText.tr("Wildernether")
         );
 
         GUIDE_MATERIALS = new CustomItemStack(
             Material.MAGMA_CREAM,
-            Theme.CRIMSON.getColor() + "Materials"
+            Theme.CRIMSON.getColor() + GetText.tr("Materials")
         );
 
         GUIDE_TOOLS = new CustomItemStack(
             Material.STONE_HOE,
-            Theme.BLACKSTONE.getColor() + "Tools"
+            Theme.BLACKSTONE.getColor() + GetText.tr("Tools")
         );
 
         GUIDE_PLANTS = new CustomItemStack(
             Material.NETHER_SPROUTS,
-            Theme.WARPED.getColor() + "Plants"
+            Theme.WARPED.getColor() + GetText.tr("Plants")
         );
         
         GUIDE_CUISINE = new CustomItemStack(
             Material.COOKED_PORKCHOP,
-            Theme.CUISINE.getColor() + "Cuisine"
+            Theme.CUISINE.getColor() + GetText.tr("Cuisine")
         );
         
         GUIDE_BREWS = new CustomItemStack(
             Material.GLASS_BOTTLE,
-            Theme.BREW.getColor() + "Brews"
+            Theme.BREW.getColor() + GetText.tr("Brews")
         );
 
         GUIDE_RECIPE_HOGLIN_BOUILLON = new CustomItemStack(
             Material.PORKCHOP,
-            Theme.CUISINE.getColor() + "Any Hoglin meat"
+            Theme.CUISINE.getColor() + GetText.tr("Any Hoglin meat")
         );
 
         RECIPE_BREAK_NETHER_PLANTS = new CustomItemStack(
             Material.NETHER_SPROUTS,
-            "&bBreak Nether Plants",
-            "&7This resource is obtained by harvesting",
-            "&7(breaking) plants in the nether with a",
-            "&7scythe. The available plants are Nether Sprouts,",
-            "&7Warped Roots, Warped Fungus, Twisting Vines,",
-            "&7Crimson Root, Crimson Fungus, Weeping Vines,",
-            "&7and Shroomlight"
+            GetText.tr("&bBreak Nether Plants"),
+            GetText.tr("&7This resource is obtained by harvesting"),
+            GetText.tr("&7(breaking) plants in the nether with a"),
+            GetText.tr("&7scythe. The available plants are Nether Sprouts,"),
+            GetText.tr("&7Warped Roots, Warped Fungus, Twisting Vines,"),
+            GetText.tr("&7Crimson Root, Crimson Fungus, Weeping Vines,"),
+            GetText.tr("&7and Shroomlight")
         );
 
         RECIPE_BLACKSTONE_STOVE_OVEN = new CustomItemStack(
             Material.BLAST_FURNACE,
-            "&bBlackstone Stove (Oven)",            
-            "&7This recipe is crafted using the Blackstone",
-            "&7Stove's oven mode. This is the default."
+            GetText.tr("&bBlackstone Stove (Oven)"),            
+            GetText.trc("wildenether_recipe_blackstone_stove_oven.lore.01", "&7This recipe is crafted using the Blackstone"),
+            GetText.trc("wildenether_recipe_blackstone_stove_oven.lore.02", "&7Stove's oven mode. This is the default.")
         );
 
         RECIPE_BLACKSTONE_STOVE_FRYING = new CustomItemStack(
             Material.BLAST_FURNACE,
-            "&bBlackstone Stove (Frying)",
-            "&7This recipe is crafted using the Blackstone",
-            "&7Stove's frying mode. Place a Heavy Weighted",
-            "&7Pressure Plate (Iron Pressure Plate) on top",
-            "&7of the stove to use this mode."
+            GetText.tr("&bBlackstone Stove (Frying)"),
+            GetText.trc("wildenether_recipe_blackstone_stove_frying.lore.01", "&7This recipe is crafted using the Blackstone"),
+            GetText.trc("wildenether_recipe_blackstone_stove_frying.lore.02", "&7Stove's frying mode. Place a Heavy Weighted"),
+            GetText.trc("wildenether_recipe_blackstone_stove_frying.lore.03", "&7Pressure Plate (Iron Pressure Plate) on top"),
+            GetText.trc("wildenether_recipe_blackstone_stove_frying.lore.04", "&7of the stove to use this mode.")
         );
 
         RECIPE_BLACKSTONE_STOVE_POT = new CustomItemStack(
             Material.BLAST_FURNACE,
-            "&bBlackstone Stove (Pot)",
-            "&7This recipe is crafted using the Blackstone",
-            "&7Stove's pot mode. Place a Cauldron on top",
-            "&7of the stove to use this mode."
+            GetText.tr("&bBlackstone Stove (Pot)"),
+            GetText.trc("wildenether_recipe_blackstone_stove_pot.lore.01", "&7This recipe is crafted using the Blackstone"),
+            GetText.trc("wildenether_recipe_blackstone_stove_pot.lore.02", "&7Stove's pot mode. Place a Cauldron on top"),
+            GetText.trc("wildenether_recipe_blackstone_stove_pot.lore.03", "&7of the stove to use this mode.")
         );
 
         RECIPE_BLACKSTONE_STOVE_BREWING = new CustomItemStack(
             Material.BLAST_FURNACE,
-            "&bBlackstone Stove (Brewing)",
-            "&7This recipe is crafted using the Blackstone",
-            "&7Stove's brewing mode. Place a Light Weighted",
-            "&7Pressure Plate (Gold Pressure Plate) on top",
-            "&7of the stove to use this mode. Water Bottles",
-            "&7can be substituted with Cactus Juice."
+            GetText.tr("&bBlackstone Stove (Brewing)"),
+            GetText.trc("wildenether_recipe_blackstone_stove_brewing.lore.01", "&7This recipe is crafted using the Blackstone"),
+            GetText.trc("wildenether_recipe_blackstone_stove_brewing.lore.02", "&7Stove's brewing mode. Place a Light Weighted"),
+            GetText.trc("wildenether_recipe_blackstone_stove_brewing.lore.03", "&7Pressure Plate (Gold Pressure Plate) on top"),
+            GetText.trc("wildenether_recipe_blackstone_stove_brewing.lore.04", "&7of the stove to use this mode. Water Bottles"),
+            GetText.trc("wildenether_recipe_blackstone_stove_brewing.lore.05", "&7can be substituted with Cactus Juice.")
         );
 
         RECIPE_KILL_MOB = new CustomItemStack(
             Material.GOLDEN_SWORD,
-            "&bHunting",
-            "&7This item is obtained by killing the",
-            "&7Specified mob",
-            "&7Pressure Plate (Gold Pressure Plate) on top",
-            "&7of the stove to use this mode. Water Bottles",
-            "&7can be substituted with Cactus Juice."
+            GetText.tr("&bHunting"),
+            GetText.tr("&7This item is obtained by killing the"),
+            GetText.tr("&7Specified mob")
         );
 
         RECIPE_HOGLIN = new CustomItemStack(
             Material.HOGLIN_SPAWN_EGG,
-            "&fHoglin"
+            GetText.tr("&fHoglin")
         );
 
         WATER_BOTTLE = ItemUtil.getWaterBottle();
@@ -161,54 +159,54 @@ public class WildernetherStacks {
             Theme.CRIMSON,
             "CRIMSON_FRAME",
             Material.CRIMSON_FENCE_GATE,
-            "Crimson Frame",
+            GetText.tr("Crimson Frame"),
             "",
-            "A sturdy frame made from the stem of",
-            "a large Crimson Fungus"
+            GetText.trc("wildenether_crimson_frame.lore.01", "A sturdy frame made from the stem of"),
+            GetText.trc("wildenether_crimson_frame.lore.02", "a large Crimson Fungus")
         );
 
         WARPED_FRAME = ItemUtil.formattedSlimefunItemStack(
             Theme.WARPED,
             "WARPED_FRAME",
             Material.WARPED_FENCE_GATE,
-            "Warped Frame",
+            GetText.tr("Warped Frame"),
             "",
-            "A sturdy frame made from the stem of",
-            "a large Warped Fungus"
+            GetText.trc("wildenether_warped_frame.lore.01", "A sturdy frame made from the stem of"),
+            GetText.trc("wildenether_warped_frame.lore.02", "a large Warped Fungus")
         );
 
         SOUL_STONE = ItemUtil.formattedSlimefunItemStack(
             Theme.SOUL,
             "SOUL_STONE",
             Material.LODESTONE,
-            Theme.SOUL.getColor() + "Soul Stone",
+            Theme.SOUL.getColor() + GetText.tr("Soul Stone"),
             "",
-            "You can hear strange whisperings coming",
-            "from deep within"
+            GetText.tr("You can hear strange whisperings coming"),
+            GetText.tr("from deep within")
         );
 
         FUNGAL_IRON_SCRAP = ItemUtil.formattedSlimefunItemStack(
             Theme.NEUTRAL,
             "FUNGAL_IRON_SCRAP",
             Material.IRON_NUGGET,
-            Theme.NEUTRAL.getColor() + "Fungal Iron Scrap",
+            Theme.NEUTRAL.getColor() + GetText.tr("Fungal Iron Scrap"),
             "",
-            "A piece of scrap iron overgrown",
-            "with fungus",
+            GetText.trc("wildenether_fungal_iron_scrap.lore.01", "A piece of scrap iron overgrown"),
+            GetText.trc("wildenether_fungal_iron_scrap.lore.02", "with fungus"),
             "",
-            "&7&oUsable in Workbench"
+            GetText.tr("&7&oUsable in Workbench")
         );
 
         FUNGAL_GOLD_SCRAP = ItemUtil.formattedSlimefunItemStack(
             Theme.NEUTRAL,
             "FUNGAL_GOLD_SCRAP",
             Material.GOLD_NUGGET,
-            Theme.NEUTRAL.getColor() + "Fungal Gold Scrap",
+            Theme.NEUTRAL.getColor() + GetText.tr("Fungal Gold Scrap"),
             "",
-            "A piece of scrap gold overgrown",
-            "with fungus",
+            GetText.trc("wildenether_fungal_gold_scrap.lore.01", "A piece of scrap gold overgrown"),
+            GetText.trc("wildenether_fungal_gold_scrap.lore.02", "with fungus"),
             "",
-            "&7&oUsable in Workbench"
+            GetText.tr("&7&oUsable in Workbench")
         );
         
         // ---------- Tools ----------
@@ -216,44 +214,44 @@ public class WildernetherStacks {
             Theme.BLACKSTONE,
             "BLACKSTONE_SCYTHE",
             Material.STONE_HOE,
-            Theme.BLACKSTONE.getColor() + "Blackstone Scythe",
+            Theme.BLACKSTONE.getColor() + GetText.tr("Blackstone Scythe"),
             "",
-            "Its extra-sharp blade makes it perfect",
-            "for cutting the tough plants that grow",
-            "in the nether"
+            GetText.tr("Its extra-sharp blade makes it perfect"),
+            GetText.tr("for cutting the tough plants that grow"),
+            GetText.tr("in the nether")
         );
         
         SOUL_SCYTHE = ItemUtil.formattedSlimefunItemStack(
             Theme.SOUL,
             "SOUL_SCYTHE",
             Material.NETHERITE_HOE,
-            Theme.SOUL.getColor() + "Soul Scythe",
+            Theme.SOUL.getColor() + GetText.tr("Soul Scythe"),
             "",
-            "Its blade quivers with soft whispers.",
-            "If you use this to harvest plants in the",
-            "nether, you might discover plants with",
-            "secrets to tell!"
+            GetText.tr("Its blade quivers with soft whispers."),
+            GetText.tr("If you use this to harvest plants in the"),
+            GetText.tr("nether, you might discover plants with"),
+            GetText.tr("secrets to tell!")
         );
 
         NETHER_COMPOSTER = ItemUtil.formattedSlimefunItemStack(
             Theme.CRIMSON,
             "NETHER_COMPOSTER",
             Material.COMPOSTER,
-            "Nether Composter",
+            GetText.tr("Nether Composter"),
             "",
-            "Crafted with the wood of the underworld,",
-            "it is suitable for breaking down even",
-            "the hardiest of plants"
+            GetText.tr("Crafted with the wood of the underworld,"),
+            GetText.tr("it is suitable for breaking down even"),
+            GetText.tr("the hardiest of plants")
         );
 
         BLACKSTONE_STOVE = ItemUtil.formattedSlimefunItemStack(
             Theme.BLACKSTONE,
             "BLACKSTONE_STOVE",
             Material.BLAST_FURNACE,
-            Theme.BLACKSTONE.getColor() + "Blackstone Stove",
+            Theme.BLACKSTONE.getColor() + GetText.tr("Blackstone Stove"),
             "",
-            "Using netherrack, it is able to keep",
-            "itself lit forever!"
+            GetText.tr("Using netherrack, it is able to keep"),
+            GetText.tr("itself lit forever!")
         );
 
         // ---------- Plants ----------
@@ -261,74 +259,74 @@ public class WildernetherStacks {
             Theme.WARPED,
             "WARPED_CACTUS",
             Material.CACTUS,
-            "Warped Cactus",
+            GetText.tr("Warped Cactus"),
             "",
-            "A tiny, twisted cactus growing from the",
-            "hypha of a warped fungus. Be careful not",
-            "to step on it!"
+            GetText.tr("A tiny, twisted cactus growing from the"),
+            GetText.tr("hypha of a warped fungus. Be careful not"),
+            GetText.tr("to step on it!")
         );
 
         BLAZESPROUT = ItemUtil.formattedSlimefunItemStack(
             Theme.CRIMSON,
             "BLAZESPROUT",
             Material.RED_DYE,
-            "Blazesprout",
+            GetText.tr("Blazesprout"),
             "",
-            "The hypha of a nether fungus has",
-            "absorbed some powder from a blaze,",
-            "leading to the formation of a fiery",
-            "blister.",
+            GetText.tr("The hypha of a nether fungus has"),
+            GetText.tr("absorbed some powder from a blaze,"),
+            GetText.tr("leading to the formation of a fiery"),
+            GetText.tr("blister."),
             "",
-            "&7&oUse in the Nether Composter"
+            GetText.tr("&7&oUse in the Nether Composter")
         );
 
         NETHER_TUBERS = ItemUtil.formattedSlimefunItemStack(
             Theme.WARPED,
             "NETHER_TUBERS",
             Material.POTATO,
-            "Nether Tubers",
+            GetText.tr("Nether Tubers"),
             "",
-            "It's a potato."
+            GetText.tr("It's a potato.")
         );
 
         CRYSTAL_MUSHROOM = ItemUtil.formattedSlimefunItemStack(
             Theme.CRIMSON,
             "CRYSTAL_MUSHROOM",
             Material.RED_MUSHROOM,
-            "Crystal Mushroom",
+            GetText.tr("Crystal Mushroom"),
             "",
-            "An excess of quartz in its surroundings",
-            "has given rise to this strange mushroom,",
-            "growing crystals of quartz in its cap"
+            GetText.tr("An excess of quartz in its surroundings"),
+            GetText.tr("has given rise to this strange mushroom,"),
+            GetText.tr("growing crystals of quartz in its cap")
         );
 
         SHROOMLIGHT_SPORES = ItemUtil.formattedSlimefunItemStack(
             Theme.CRIMSON,
             "SHROOMLIGHT_SPORES",
             Material.PUMPKIN_SEEDS,
-            "Shroomlight Spores",
+            GetText.tr("Shroomlight Spores"),
             "",
-            "These spores don't appear to glow, unlike",
-            "the bulbs that they dropped from."
+            GetText.tr("These spores don't appear to glow, unlike"),
+            GetText.tr("the bulbs that they dropped from.")
         );
 
         WARPED_ROSE = ItemUtil.formattedSlimefunItemStack(
             Theme.WARPED,
             "WARPED_ROSE",
             Material.WITHER_ROSE,
-            "Warped Rose",
+            GetText.tr("Warped Rose"),
             "",
-            "This rose's thorns are bigger than its",
-            "leaves"
+            GetText.tr("This rose's thorns are bigger than its"),
+            GetText.tr("leaves")
         );
 
         RED_CARROT = ItemUtil.formattedSlimefunItemStack(
             Theme.CRIMSON,
             "RED_CARROT",
             Material.CARROT,
-            "Red Carrot",
+            GetText.tr("Red Carrot"),
             "",
-            "It's red"
+            GetText.tr("It's red")
         );
 
         // Uncommon
@@ -336,38 +334,38 @@ public class WildernetherStacks {
             Theme.CRIMSON,
             "CRIMSON_DREADLOCKS",
             Material.WEEPING_VINES,
-            "Crimson Dreadlocks",
+            GetText.tr("Crimson Dreadlocks"),
             "",
-            "Each one of these vines is as thick as",
-            "your arm..."
+            GetText.tr("Each one of these vines is as thick as"),
+            GetText.tr("your arm...")
         );
 
         TWISTED_BEAN_SPROUT = ItemUtil.formattedSlimefunItemStack(
             Theme.WARPED,
             "TWISTED_BEAN_SPROUT",
             Material.TWISTING_VINES,
-            "Twisted Bean Sprout",
+            GetText.tr("Twisted Bean Sprout"),
             "",
-            "High source of fibre!"
+            GetText.tr("High source of fibre!")
         );
 
         RED_SPIDER_LILY = ItemUtil.formattedSlimefunItemStack(
             Theme.CRIMSON,
             "RED_SPIDER_LILY",
             Material.POPPY,
-            "Red Spider Lily",
+            GetText.tr("Red Spider Lily"),
             "",
-            "Its curling petals seem to be grabbing",
-            "at you"
+            GetText.tr("Its curling petals seem to be grabbing"),
+            GetText.tr("at you")
         );
 
         WARPED_LOTUS = ItemUtil.formattedSlimefunItemStack(
             Theme.WARPED,
             "WARPED_LOTUS",
             Material.SPORE_BLOSSOM,
-            "Warped Lotus",
+            GetText.tr("Warped Lotus"),
             "",
-            "Don't they normally grow on water?"
+            GetText.tr("Don't they normally grow on water?")
         );
 
         // Rare
@@ -375,38 +373,38 @@ public class WildernetherStacks {
             Theme.CRIMSON_DARK,
             "SMOLDERING_HERBS",
             Material.FERN,
-            "Smoldering Herbs",
+            GetText.tr("Smoldering Herbs"),
             "",
-            "They don't actually burn"
+            GetText.tr("They don't actually burn")
         );
 
         IMMOLATED_VINES = ItemUtil.formattedSlimefunItemStack(
             Theme.CRIMSON_DARK,
             "IMMOLATED_VINES",
             Material.WEEPING_VINES,
-            "Immolated Vines",
+            GetText.tr("Immolated Vines"),
             "",
-            "Even after being cut from the fungus,",
-            "it pulsates like a heart"
+            GetText.tr("Even after being cut from the fungus,"),
+            GetText.tr("it pulsates like a heart")
         );
 
         OCTARINE_NETHERCAP = ItemUtil.formattedSlimefunItemStack(
             Theme.WARPED_DARK,
             "OCTARINE_NETHERCAP",
             Material.WARPED_FUNGUS,
-            "Octarine Nethercap",
+            GetText.tr("Octarine Nethercap"),
             "",
-            "A fluorescent greenish-yellow purple"
+            GetText.tr("A fluorescent greenish-yellow purple")
         );
 
         EMERALD_FIREBLOOM = ItemUtil.formattedSlimefunItemStack(
             Theme.WARPED_DARK,
             "EMERALD_FIREBLOOM",
             Material.FERN,
-            "Emerald Firebloom",
+            GetText.tr("Emerald Firebloom"),
             "",
-            "Its petals undulate like the flames",
-            "of a fire"
+            GetText.tr("Its petals undulate like the flames"),
+            GetText.tr("of a fire")
         );
         
 
@@ -415,74 +413,74 @@ public class WildernetherStacks {
             Theme.SOUL,
             "GARDEN_OF_THE_LOST_SOUL",
             Material.GRASS,
-            "Garden of the Lost Soul",
-            "&7Chapter 1",
+            GetText.tr("Garden of the Lost Soul"),
+            GetText.tr("&7Chapter 1"),
             "",
-            "The only refuge in this blazing land",
-            "for the adventurer trapped in hell.", 
-            "He cultivated this garden with the",
-            "flora of a peaceful world, escaping",
-            "into a transient dream"
+            GetText.tr("The only refuge in this blazing land"),
+            GetText.tr("for the adventurer trapped in hell."), 
+            GetText.tr("He cultivated this garden with the"),
+            GetText.tr("flora of a peaceful world, escaping"),
+            GetText.tr("into a transient dream")
         );
 
         TULIP_OF_PARTINGS = ItemUtil.formattedSlimefunItemStack(
             Theme.SOUL,
             "TULIP_OF_PARTINGS",
             Material.WHITE_TULIP,
-            "Tulip of Partings",
-            "&7Chapter 2",
+            GetText.tr("Tulip of Partings"),
+            GetText.tr("&7Chapter 2"),
             "",
-            "His oasis, the winds of the wastes",
-            "scattered and warped. In the end",
-            "the adventurer was left with a single",
-            "fragile tulip, the only reminder of",
-            "the world from which he came"
+            GetText.tr("His oasis, the winds of the wastes"),
+            GetText.tr("scattered and warped. In the end"),
+            GetText.tr("the adventurer was left with a single"),
+            GetText.tr("fragile tulip, the only reminder of"),
+            GetText.tr("the world from which he came")
         );
 
         BLOOM_OF_UNHEARD_CRIES = ItemUtil.formattedSlimefunItemStack(
             Theme.SOUL,
             "BLOOM_OF_UNHEARD_CRIES",
             Material.FLOWERING_AZALEA,
-            "Bloom of Unheard Cries",
-            "&7Chapter 3",
+            GetText.tr("Bloom of Unheard Cries"),
+            GetText.tr("&7Chapter 3"),
             "",
-            "Gone was his sanctuary, every last", 
-            "bloom warped into horror. Fearing the",
-            "dangers of staying there, he set out",
-            "to find a way home. Alas, his shouts",
-            "reached nothing but the domineering",
-            "netherrack sky, and the brown sand",
-            "dragging down his feet"
+            GetText.tr("Gone was his sanctuary, every last"), 
+            GetText.tr("bloom warped into horror. Fearing the"),
+            GetText.tr("dangers of staying there, he set out"),
+            GetText.tr("to find a way home. Alas, his shouts"),
+            GetText.tr("reached nothing but the domineering"),
+            GetText.tr("netherrack sky, and the brown sand"),
+            GetText.tr("dragging down his feet")
         );
 
         BLOSSOM_OF_SOLITUDE = ItemUtil.formattedSlimefunItemStack(
             Theme.SOUL,
             "BLOSSOM_OF_SOLITUDE",
             Material.CRIMSON_FUNGUS,
-            "Blossom of Solitude",
-            "&7Chapter 4",
+            GetText.tr("Blossom of Solitude"),
+            GetText.tr("&7Chapter 4"),
             "",
-            "After days of walking, the adventurer",
-            "could move no longer. He collapsed on the",
-            "hard rock, scarlet blood flowing from",
-            "festering wounds. No more did he feel the",
-            "itch of a stinging scrape, nor the aching",
-            "of an empty stomach."
+            GetText.tr("After days of walking, the adventurer"),
+            GetText.tr("could move no longer. He collapsed on the"),
+            GetText.tr("hard rock, scarlet blood flowing from"),
+            GetText.tr("festering wounds. No more did he feel the"),
+            GetText.tr("itch of a stinging scrape, nor the aching"),
+            GetText.tr("of an empty stomach.")
         );
 
         LAMENT_OF_THE_DAMNED = ItemUtil.formattedSlimefunItemStack(
             Theme.SOUL,
             "LAMENT_OF_THE_DAMNED",
             Material.WEEPING_VINES,
-            "Lament of the Damned",
-            "&7Chapter 5",
+            GetText.tr("Lament of the Damned"),
+            GetText.tr("&7Chapter 5"),
             "",
-            "Once fiery brimstone, this land became",
-            "overgrown with the twisted forms of flora",
-            "that flew on the wind, and mutated with",
-            "time. However, no more could his soul be",
-            "soothed, for he was damned to this",
-            "unknown land for the rest of eternity"
+            GetText.tr("Once fiery brimstone, this land became"),
+            GetText.tr("overgrown with the twisted forms of flora"),
+            GetText.tr("that flew on the wind, and mutated with"),
+            GetText.tr("time. However, no more could his soul be"),
+            GetText.tr("soothed, for he was damned to this"),
+            GetText.tr("unknown land for the rest of eternity")
         );
 
         
@@ -493,48 +491,48 @@ public class WildernetherStacks {
             Theme.CUISINE,
             "HOGLIN_SPARE_RIB",
             Material.BEEF,
-            "Hoglin Spare Rib",
+            GetText.tr("Hoglin Spare Rib"),
             "",
-            "A thick cut of meat from the side",
-            "of a hoglin"
+            GetText.trc("wildenether_hoglin_spare_rib.lore.01", "A thick cut of meat from the side"),
+            GetText.trc("wildenether_hoglin_spare_rib.lore.02", "of a hoglin")
         );
         
         HOGLIN_BELLY = ItemUtil.formattedSlimefunItemStack(
             Theme.CUISINE,
             "HOGLIN_BELLY",
             Material.PORKCHOP,
-            "Hoglin Belly",
+            GetText.tr("Hoglin Belly"),
             "",
-            "A fatty cut of meat from the underside",
-            "of a hoglin"
+            GetText.trc("wildenether_hoglin_belly.lore.01", "A fatty cut of meat from the underside"),
+            GetText.trc("wildenether_hoglin_belly.lore.02", "of a hoglin")
         );
         
         HOGLIN_TROTTERS = ItemUtil.formattedSlimefunItemStack(
             Theme.CUISINE,
             "HOGLIN_TROTTERS",
             Material.RABBIT_FOOT,
-            "Hoglin Trotters",
+            GetText.tr("Hoglin Trotters"),
             "",
-            "The foot of a hoglin"
+            GetText.tr("The foot of a hoglin")
         );
 
         HOGLIN_BOUILLON = ItemUtil.formattedSlimefunItemStack(
             Theme.CUISINE,
             "HOGLIN_BOUILLON",
             Material.WATER_BUCKET,
-            "Hoglin Bouillon",
+            GetText.tr("Hoglin Bouillon"),
             "",
-            "A flavourful broth made by simmering",
-            "hoglin meat"
+            GetText.tr("A flavourful broth made by simmering"),
+            GetText.tr("hoglin meat")
         );
 
         BOILED_WARPED_CACTUS = ItemUtil.formattedSlimefunItemStack(
             Theme.CUISINE,
             "BOILED_WARPED_CACTUS",
             Material.GREEN_DYE,
-            "Boiled Warped Cactus",
+            GetText.tr("Boiled Warped Cactus"),
             "",
-            "You can eat cactus?",
+            GetText.tr("You can eat cactus?"),
             "",
             LoreBuilder.hunger(1)
         );
@@ -544,10 +542,10 @@ public class WildernetherStacks {
             Theme.CUISINE,
                 "CACTUS_JUICE",
                 Material.POTION,
-                "Cactus Juice",
+                GetText.tr("Cactus Juice"),
                 "",
-                "A regular water bottle that smells",
-                "faintly of sulfur and cactus"
+                GetText.tr("A regular water bottle that smells"),
+                GetText.tr("faintly of sulfur and cactus")
             ),
             Color.fromRGB(0x7c, 0xd3, 0x9c)
         );
@@ -557,9 +555,9 @@ public class WildernetherStacks {
             Theme.CUISINE,
             "WARPED_SALAD",
             Material.GREEN_DYE,
-            "Warped Salad",
+            GetText.tr("Warped Salad"),
             "",
-            "Salads are green, so its okay to eat",
+            GetText.tr("Salads are green, so its okay to eat"),
             "",
             LoreBuilder.hunger(4)
         );
@@ -568,9 +566,9 @@ public class WildernetherStacks {
             Theme.CUISINE,
             "MUSHROOM_SLICES",
             Material.BEETROOT_SEEDS,
-            "Mushroom Slices",
+            GetText.tr("Mushroom Slices"),
             "",
-            "An assortment of oddly coloured fungi",
+            GetText.tr("An assortment of oddly coloured fungi"),
             "",
             LoreBuilder.hunger(3)
         );
@@ -579,9 +577,9 @@ public class WildernetherStacks {
             Theme.CUISINE,
             "BAKED_NETHER_TUBERS",
             Material.BAKED_POTATO,
-            "Baked Nether Tubers",
+            GetText.tr("Baked Nether Tubers"),
             "",
-            "It's a baked potato.",
+            GetText.tr("It's a baked potato."),
             "",
             LoreBuilder.hunger(3)
         );
@@ -590,10 +588,10 @@ public class WildernetherStacks {
             Theme.CUISINE,
             "GLOWING_BEANS",
             Material.GLOW_BERRIES,
-            "Glowing Beans",
+            GetText.tr("Glowing Beans"),
             "",
-            "It looks like cooking has brought out",
-            "The luminescent elements in the spores",
+            GetText.tr("It looks like cooking has brought out"),
+            GetText.tr("The luminescent elements in the spores"),
             "",
             LoreBuilder.hunger(0.5)
         );
@@ -603,9 +601,9 @@ public class WildernetherStacks {
             Theme.CUISINE,
             "NETHER_CHIPS",
             Material.BREAD,
-            "Nether Chips™",
+            GetText.tr("Nether Chips™"),
             "",
-            "You'll get fat if you eat too much",
+            GetText.tr("You'll get fat if you eat too much"),
             "",
             LoreBuilder.hunger(1.5)
         );
@@ -614,9 +612,9 @@ public class WildernetherStacks {
             Theme.CUISINE,
             "FRIED_WARPED_FUNGUS",
             Material.WARPED_FUNGUS,
-            "Fried Warped Fungus",
+            GetText.tr("Fried Warped Fungus"),
             "",
-            "Crunchy!",
+            GetText.tr("Crunchy!"),
             "",
             LoreBuilder.hunger(1)
         );
@@ -625,9 +623,9 @@ public class WildernetherStacks {
             Theme.CUISINE,
             "FRIED_CRIMSON_FUNGUS",
             Material.CRIMSON_FUNGUS,
-            "Fried Crimson Fungus",
+            GetText.tr("Fried Crimson Fungus"),
             "",
-            "Crunchy!",
+            GetText.tr("Crunchy!"),
             "",
             LoreBuilder.hunger(1)
         );
@@ -636,9 +634,9 @@ public class WildernetherStacks {
             Theme.CUISINE,
             "SPICY_FRIED_LOTUS",
             Material.COOKIE,
-            "Spicy Fried Lotus",
+            GetText.tr("Spicy Fried Lotus"),
             "",
-            "Sweet, savoury, &oand spicy!",
+            GetText.tr("Sweet, savoury, &oand spicy!"),
             "",
             LoreBuilder.hunger(3.5)
         );
@@ -648,10 +646,10 @@ public class WildernetherStacks {
             Theme.CUISINE,
             "CRIMSON_STEW",
             Material.BEETROOT_SOUP,
-            "Crimson Stew",
+            GetText.tr("Crimson Stew"),
             "",
-            "A thick clump of fungus floats on the top.",
-            "It should be safe to eat, right?",
+            GetText.tr("A thick clump of fungus floats on the top."),
+            GetText.tr("It should be safe to eat, right?"),
             "",
             LoreBuilder.hunger(5)
         );
@@ -660,10 +658,10 @@ public class WildernetherStacks {
             Theme.CUISINE,
             "WARPED_STEW",
             Material.SUSPICIOUS_STEW,
-            "Warped Stew",
+            GetText.tr("Warped Stew"),
             "",
-            "The surface of the soup shines green.",
-            "It should be safe to eat, right?",
+            GetText.tr("The surface of the soup shines green."),
+            GetText.tr("It should be safe to eat, right?"),
             "",
             LoreBuilder.hunger(5)
         );
@@ -672,9 +670,9 @@ public class WildernetherStacks {
             Theme.CUISINE,
             "NETHER_HOTPOT",
             Material.RABBIT_STEW,
-            "Nether Hotpot",
+            GetText.tr("Nether Hotpot"),
             "",
-            "Piping hot!",
+            GetText.tr("Piping hot!"),
             "",
             LoreBuilder.hunger(6)
         );
@@ -683,9 +681,9 @@ public class WildernetherStacks {
             Theme.CUISINE,
             "PORK_BONE_SOUP",
             Material.MUSHROOM_STEW,
-            "Pork Bone Soup",
+            GetText.tr("Pork Bone Soup"),
             "",
-            "Very filling!",
+            GetText.tr("Very filling!"),
             "",
             LoreBuilder.hunger(8.5)
         );
@@ -694,9 +692,9 @@ public class WildernetherStacks {
             Theme.CUISINE,
             "BOILED_NETHER_TUBERS",
             Material.POTATO,
-            "Boiled Nether Tubers",
+            GetText.tr("Boiled Nether Tubers"),
             "",
-            "It's a boiled potato.",
+            GetText.tr("It's a boiled potato."),
             "",
             LoreBuilder.hunger(3)
         );
@@ -707,7 +705,7 @@ public class WildernetherStacks {
                 Theme.BREW,
                 "BREW_OF_FIRE_WARDING",
                 Material.POTION,
-                "Brew of Fire Warding"
+                GetText.tr("Brew of Fire Warding")
             ),
             Color.fromRGB(0xfc, 0x8d, 0x0f),
             new PotionEffect(PotionEffectType.FIRE_RESISTANCE, 300*20, 0)
@@ -718,7 +716,7 @@ public class WildernetherStacks {
                 Theme.BREW,
                 "BREW_OF_FARSIGHT",
                 Material.POTION,
-                "Brew of Farsight"
+                GetText.tr("Brew of Farsight")
             ),
             Color.fromRGB(0x0f, 0x7d, 0xfc),
             new PotionEffect(PotionEffectType.NIGHT_VISION, 300*20, 0)
@@ -729,7 +727,7 @@ public class WildernetherStacks {
                 Theme.BREW,
                 "BREW_OF_CELERITY",
                 Material.POTION,
-                "Brew of Celerity"
+                GetText.tr("Brew of Celerity")
             ),
             Color.fromRGB(0xfc, 0xf4, 0xfa),
             new PotionEffect(PotionEffectType.FAST_DIGGING, 10*20, 1),
